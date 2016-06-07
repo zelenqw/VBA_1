@@ -1,0 +1,525 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Быстрый старт. Размещение интерактивной карты на странице</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap, 
+            myPlacemark
+myPlacemark1,
+myPlacemark2,
+myPlacemark3,
+myPlacemark4,
+myPlacemark5,
+myPlacemark6,
+myPlacemark7,
+myPlacemark8,
+myPlacemark9,
+myPlacemark10,
+myPlacemark11,
+myPlacemark12,
+myPlacemark13,
+myPlacemark14,
+myPlacemark15,
+myPlacemark16,
+myPlacemark17,
+myPlacemark18,
+myPlacemark19,
+myPlacemark20,
+myPlacemark21,
+myPlacemark22,
+myPlacemark23,
+myPlacemark24,
+myPlacemark25,
+myPlacemark26,
+myPlacemark27,
+myPlacemark28,
+myPlacemark29,
+myPlacemark30,
+myPlacemark31,
+myPlacemark32,
+myPlacemark33,
+myPlacemark34,
+myPlacemark35,
+myPlacemark36,
+myPlacemark37,
+myPlacemark38,
+myPlacemark39,
+myPlacemark40,
+myPlacemark41,
+myPlacemark42,
+myPlacemark43,
+myPlacemark44,
+myPlacemark45,
+myPlacemark46,
+myPlacemark47,
+myPlacemark48,
+myPlacemark49,
+myPlacemark50,
+myPlacemark51,
+myPlacemark52,
+myPlacemark53,
+myPlacemark54,
+myPlacemark55,
+myPlacemark56,
+myPlacemark57,
+myPlacemark58,
+myPlacemark59,
+myPlacemark60,
+myPlacemark61,
+myPlacemark62,
+myPlacemark63,
+myPlacemark64,
+myPlacemark65,
+myPlacemark66,
+myPlacemark67,
+myPlacemark68,
+myPlacemark69,
+myPlacemark70,
+myPlacemark71,
+myPlacemark72,
+myPlacemark73,
+myPlacemark74,
+myPlacemark75,
+myPlacemark76,
+myPlacemark77,
+myPlacemark78,
+myPlacemark79,
+myPlacemark80,
+myPlacemark81,
+myPlacemark82,
+myPlacemark83,
+myPlacemark84,
+myPlacemark85,
+myPlacemark86,
+myPlacemark87,
+myPlacemark88,
+myPlacemark89,
+myPlacemark90,
+myPlacemark91,
+myPlacemark92,
+myPlacemark93,
+myPlacemark94,
+myPlacemark95,
+myPlacemark96,
+myPlacemark97,
+myPlacemark98,
+myPlacemark99,
+myPlacemark100,
+myPlacemark101,
+myPlacemark102,
+myPlacemark103,
+myPlacemark104,
+myPlacemark105,
+myPlacemark106,
+myPlacemark107,
+myPlacemark108,
+myPlacemark109,
+myPlacemark110,
+myPlacemark111,
+myPlacemark112,
+myPlacemark113,
+myPlacemark114,
+myPlacemark115,
+myPlacemark116,
+myPlacemark117,
+myPlacemark118,
+myPlacemark119,
+myPlacemark120,
+myPlacemark121,
+myPlacemark122,
+myPlacemark123,
+myPlacemark124,
+myPlacemark125,
+myPlacemark126,
+myPlacemark127,
+myPlacemark128,
+myPlacemark129,
+myPlacemark130,
+myPlacemark131,
+myPlacemark132,
+myPlacemark133,
+myPlacemark134,
+myPlacemark135,
+myPlacemark136,
+myPlacemark137,
+myPlacemark138,
+myPlacemark139,
+myPlacemark140,
+myPlacemark141,
+myPlacemark142,
+myPlacemark143,
+myPlacemark144,
+myPlacemark145,
+myPlacemark146,
+myPlacemark147,
+myPlacemark148,
+myPlacemark149,
+myPlacemark150,
+myPlacemark151,
+myPlacemark152,
+myPlacemark153,
+myPlacemark154,
+myPlacemark155,
+myPlacemark156,
+myPlacemark157,
+myPlacemark158,
+myPlacemark159,
+myPlacemark160,
+myPlacemark161,
+myPlacemark162,
+myPlacemark163,
+myPlacemark164;
+
+        function init(){ 
+            myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64],
+                zoom: 5
+            }); 
+            
+            myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+                hintContent: 'Москва!',
+                balloonContent: 'Столица России'
+            });
+myPlacemark1 = new ymaps.Placemark([54.735147,55.958727]);
+myPlacemark2 = new ymaps.Placemark([55.75396,37.620393]);
+myPlacemark3 = new ymaps.Placemark([53.630152,55.931634]);
+myPlacemark4 = new ymaps.Placemark([59.939095,30.315868]);
+myPlacemark5 = new ymaps.Placemark([53.361694,55.924582]);
+myPlacemark6 = new ymaps.Placemark([56.088393,54.248182]);
+myPlacemark7 = new ymaps.Placemark([54.599988,53.694982]);
+myPlacemark8 = new ymaps.Placemark([55.798551,49.106324]);
+myPlacemark9 = new ymaps.Placemark([54.481448,53.46557]);
+myPlacemark10 = new ymaps.Placemark([52.958964,55.92831]);
+myPlacemark11 = new ymaps.Placemark([52.720548,58.666429]);
+myPlacemark12 = new ymaps.Placemark([56.838607,60.605514]);
+myPlacemark13 = new ymaps.Placemark([53.454621,56.043923]);
+myPlacemark14 = new ymaps.Placemark([50.290658,127.527173]);
+myPlacemark15 = new ymaps.Placemark([55.412523,55.540471]);
+myPlacemark16 = new ymaps.Placemark([54.103457,54.111243]);
+myPlacemark17 = new ymaps.Placemark([58.010259,56.234195]);
+myPlacemark18 = new ymaps.Placemark([55.160283,61.400856]);
+myPlacemark19 = new ymaps.Placemark([52.756539,55.796958]);
+myPlacemark20 = new ymaps.Placemark([55.48529,54.873463]);
+myPlacemark21 = new ymaps.Placemark([53.967605,58.410032]);
+myPlacemark22 = new ymaps.Placemark([45.040216,38.975996]);
+myPlacemark23 = new ymaps.Placemark([50.450418,30.523541]);
+myPlacemark24 = new ymaps.Placemark([53.407211,58.979186]);
+myPlacemark25 = new ymaps.Placemark([53.195522,50.101819]);
+myPlacemark26 = new ymaps.Placemark([54.589357,55.380347]);
+myPlacemark27 = new ymaps.Placemark([54.187211,45.183642]);
+myPlacemark28 = new ymaps.Placemark([54.222727,55.03127]);
+myPlacemark29 = new ymaps.Placemark([41.38558,2.16874]);
+myPlacemark30 = new ymaps.Placemark([52.591257,58.311199]);
+myPlacemark31 = new ymaps.Placemark([51.768199,55.096955]);
+myPlacemark32 = new ymaps.Placemark([47.222531,39.718705]);
+myPlacemark33 = new ymaps.Placemark([40.420275,-3.705766]);
+myPlacemark34 = new ymaps.Placemark([54.70739,20.507307]);
+myPlacemark35 = new ymaps.Placemark([43.238286,76.945456]);
+myPlacemark36 = new ymaps.Placemark([34.053485,-118.245313]);
+myPlacemark37 = new ymaps.Placemark([54.319171,59.378595]);
+myPlacemark38 = new ymaps.Placemark([54.84149,56.441015]);
+myPlacemark39 = new ymaps.Placemark([53.893466,56.468799]);
+myPlacemark40 = new ymaps.Placemark([61.254052,73.396204]);
+myPlacemark41 = new ymaps.Placemark([54.064974,54.932905]);
+myPlacemark42 = new ymaps.Placemark([40.714545,-74.007112]);
+myPlacemark43 = new ymaps.Placemark([56.010599,92.852545]);
+myPlacemark44 = new ymaps.Placemark([56.264957,54.929824]);
+myPlacemark45 = new ymaps.Placemark([48.707103,44.516939]);
+myPlacemark46 = new ymaps.Placemark([53.895217,53.936889]);
+myPlacemark47 = new ymaps.Placemark([56.852775,53.211463]);
+myPlacemark48 = new ymaps.Placemark([57.153033,65.534328]);
+myPlacemark49 = new ymaps.Placemark([43.585525,39.723062]);
+myPlacemark50 = new ymaps.Placemark([46.484579,30.732597]);
+myPlacemark51 = new ymaps.Placemark([49.992167,36.231202]);
+myPlacemark52 = new ymaps.Placemark([51.863733,58.21719]);
+myPlacemark53 = new ymaps.Placemark([54.629169,39.734928]);
+myPlacemark54 = new ymaps.Placemark([41.884244,-87.632444]);
+myPlacemark55 = new ymaps.Placemark([56.326887,44.005986]);
+myPlacemark56 = new ymaps.Placemark([51.661535,39.200287]);
+myPlacemark57 = new ymaps.Placemark([44.948314,34.100156]);
+myPlacemark58 = new ymaps.Placemark([43.115141,131.885341]);
+myPlacemark59 = new ymaps.Placemark([54.570536,54.534017]);
+myPlacemark60 = new ymaps.Placemark([60.939742,76.569601]);
+myPlacemark61 = new ymaps.Placemark([52.182293,56.595552]);
+myPlacemark62 = new ymaps.Placemark([54.989342,73.368212]);
+myPlacemark63 = new ymaps.Placemark([55.139725,54.65175]);
+myPlacemark64 = new ymaps.Placemark([49.839678,24.029709]);
+myPlacemark65 = new ymaps.Placemark([54.990628,57.278424]);
+myPlacemark66 = new ymaps.Placemark([55.743553,52.39582]);
+myPlacemark67 = new ymaps.Placemark([54.239989,57.961225]);
+myPlacemark68 = new ymaps.Placemark([53.902257,27.561831]);
+myPlacemark69 = new ymaps.Placemark([54.362767,56.15933]);
+myPlacemark70 = new ymaps.Placemark([55.45141,54.309016]);
+myPlacemark71 = new ymaps.Placemark([48.472584,135.057732]);
+myPlacemark72 = new ymaps.Placemark([51.128422,71.430564]);
+myPlacemark73 = new ymaps.Placemark([48.464717,35.046181]);
+myPlacemark74 = new ymaps.Placemark([54.013427,55.888901]);
+myPlacemark75 = new ymaps.Placemark([55.533868,58.244481]);
+myPlacemark76 = new ymaps.Placemark([40.369147,49.834732]);
+myPlacemark77 = new ymaps.Placemark([48.015877,37.80285]);
+myPlacemark78 = new ymaps.Placemark([54.193033,37.617752]);
+myPlacemark79 = new ymaps.Placemark([51.516606,7.45829]);
+myPlacemark80 = new ymaps.Placemark([54.312416,48.395622]);
+myPlacemark81 = new ymaps.Placemark([-22.912154,-43.175009]);
+myPlacemark82 = new ymaps.Placemark([46.347869,48.033574]);
+myPlacemark83 = new ymaps.Placemark([52.516067,13.376975]);
+myPlacemark84 = new ymaps.Placemark([42.358655,-71.056739]);
+myPlacemark85 = new ymaps.Placemark([52.721246,41.452238]);
+myPlacemark86 = new ymaps.Placemark([43.317776,45.694909]);
+myPlacemark87 = new ymaps.Placemark([42.98306,47.504682]);
+myPlacemark88 = new ymaps.Placemark([66.083963,76.680974]);
+myPlacemark89 = new ymaps.Placemark([55.201022,58.166849]);
+myPlacemark90 = new ymaps.Placemark([50.300411,57.154636]);
+myPlacemark91 = new ymaps.Placemark([51.533103,46.034158]);
+myPlacemark92 = new ymaps.Placemark([46.975033,31.994577]);
+myPlacemark93 = new ymaps.Placemark([53.336333,58.511497]);
+myPlacemark94 = new ymaps.Placemark([40.177642,44.512591]);
+myPlacemark95 = new ymaps.Placemark([52.717303,56.623139]);
+myPlacemark96 = new ymaps.Placemark([48.410854,-118.215605]);
+myPlacemark97 = new ymaps.Placemark([42.875989,74.603674]);
+myPlacemark98 = new ymaps.Placemark([55.10701,55.342025]);
+myPlacemark99 = new ymaps.Placemark([54.901383,52.297113]);
+myPlacemark100 = new ymaps.Placemark([47.910505,33.391843]);
+myPlacemark101 = new ymaps.Placemark([54.55277,54.107982]);
+myPlacemark102 = new ymaps.Placemark([55.030199,82.92043]);
+myPlacemark103 = new ymaps.Placemark([50.597467,36.588849]);
+myPlacemark104 = new ymaps.Placemark([55.354968,86.087314]);
+myPlacemark105 = new ymaps.Placemark([49.806406,73.085485]);
+myPlacemark106 = new ymaps.Placemark([42.317301,69.589709]);
+myPlacemark107 = new ymaps.Placemark([56.48468,84.948197]);
+myPlacemark108 = new ymaps.Placemark([61.088212,72.616331]);
+myPlacemark109 = new ymaps.Placemark([57.626549,39.893885]);
+myPlacemark110 = new ymaps.Placemark([53.508816,49.419207]);
+myPlacemark111 = new ymaps.Placemark([53.894617,30.331014]);
+myPlacemark112 = new ymaps.Placemark([43.020603,44.681888]);
+myPlacemark113 = new ymaps.Placemark([52.285577,76.940947]);
+myPlacemark114 = new ymaps.Placemark([37.777114,-122.419631]);
+myPlacemark115 = new ymaps.Placemark([55.179632,53.795593]);
+myPlacemark116 = new ymaps.Placemark([47.838796,35.139561]);
+myPlacemark117 = new ymaps.Placemark([52.286387,104.28066]);
+myPlacemark118 = new ymaps.Placemark([54.990716,57.689969]);
+myPlacemark119 = new ymaps.Placemark([54.820047,54.005781]);
+myPlacemark120 = new ymaps.Placemark([51.229345,58.475214]);
+myPlacemark121 = new ymaps.Placemark([53.479589,-2.248735]);
+myPlacemark122 = new ymaps.Placemark([48.856929,2.341198]);
+myPlacemark123 = new ymaps.Placemark([58.603581,49.668023]);
+myPlacemark124 = new ymaps.Placemark([55.899835,53.92204]);
+myPlacemark125 = new ymaps.Placemark([35.68321,139.808949]);
+myPlacemark126 = new ymaps.Placemark([51.506415,-0.127201]);
+myPlacemark127 = new ymaps.Placemark([55.843732,55.407584]);
+myPlacemark128 = new ymaps.Placemark([56.000804,55.917908]);
+myPlacemark129 = new ymaps.Placemark([54.410253,53.799689]);
+myPlacemark130 = new ymaps.Placemark([51.730361,36.192647]);
+myPlacemark131 = new ymaps.Placemark([56.138654,47.239894]);
+myPlacemark132 = new ymaps.Placemark([52.61022,39.594719]);
+myPlacemark133 = new ymaps.Placemark([55.431177,37.544737]);
+myPlacemark134 = new ymaps.Placemark([25.269516,55.308823]);
+myPlacemark135 = new ymaps.Placemark([48.922629,24.711108]);
+myPlacemark136 = new ymaps.Placemark([53.243325,34.363731]);
+myPlacemark137 = new ymaps.Placemark([56.859611,35.911896]);
+myPlacemark138 = new ymaps.Placemark([44.616687,33.525432]);
+myPlacemark139 = new ymaps.Placemark([47.097132,37.543363]);
+myPlacemark140 = new ymaps.Placemark([38.558513,68.763358]);
+myPlacemark141 = new ymaps.Placemark([53.439262,55.26229]);
+myPlacemark142 = new ymaps.Placemark([55.852101,56.877245]);
+myPlacemark143 = new ymaps.Placemark([53.348053,83.779875]);
+myPlacemark144 = new ymaps.Placemark([55.045671,60.107677]);
+myPlacemark145 = new ymaps.Placemark([56.085651,56.578502]);
+myPlacemark146 = new ymaps.Placemark([51.833507,107.584125]);
+myPlacemark147 = new ymaps.Placemark([55.171488,59.672641]);
+myPlacemark148 = new ymaps.Placemark([55.634019,51.80913]);
+myPlacemark149 = new ymaps.Placemark([47.106719,51.90313]);
+myPlacemark150 = new ymaps.Placemark([53.692594,54.269616]);
+myPlacemark151 = new ymaps.Placemark([54.817842,58.446423]);
+myPlacemark152 = new ymaps.Placemark([49.065782,33.410025]);
+myPlacemark153 = new ymaps.Placemark([54.314475,56.133512]);
+myPlacemark154 = new ymaps.Placemark([69.349036,88.201059]);
+myPlacemark155 = new ymaps.Placemark([53.102178,57.441612]);
+myPlacemark156 = new ymaps.Placemark([56.238377,43.461625]);
+myPlacemark157 = new ymaps.Placemark([55.407576,58.600259]);
+myPlacemark158 = new ymaps.Placemark([52.967187,36.069613]);
+myPlacemark159 = new ymaps.Placemark([51.193267,34.499646]);
+myPlacemark160 = new ymaps.Placemark([55.317445,55.082933]);
+myPlacemark161 = new ymaps.Placemark([46.639057,32.614522]);
+myPlacemark162 = new ymaps.Placemark([-34.608507,-58.373488]);
+myPlacemark163 = new ymaps.Placemark([46.959179,142.738041]);
+myPlacemark164 = new ymaps.Placemark([43.635379,51.169135]);
+
+
+            
+            myMap.geoObjects.add(myPlacemark)
+myMap.geoObjects.add(myPlacemark1),
+myMap.geoObjects.add(myPlacemark2),
+myMap.geoObjects.add(myPlacemark3),
+myMap.geoObjects.add(myPlacemark4),
+myMap.geoObjects.add(myPlacemark5),
+myMap.geoObjects.add(myPlacemark6),
+myMap.geoObjects.add(myPlacemark7),
+myMap.geoObjects.add(myPlacemark8),
+myMap.geoObjects.add(myPlacemark9),
+myMap.geoObjects.add(myPlacemark10),
+myMap.geoObjects.add(myPlacemark11),
+myMap.geoObjects.add(myPlacemark12),
+myMap.geoObjects.add(myPlacemark13),
+myMap.geoObjects.add(myPlacemark14),
+myMap.geoObjects.add(myPlacemark15),
+myMap.geoObjects.add(myPlacemark16),
+myMap.geoObjects.add(myPlacemark17),
+myMap.geoObjects.add(myPlacemark18),
+myMap.geoObjects.add(myPlacemark19),
+myMap.geoObjects.add(myPlacemark20),
+myMap.geoObjects.add(myPlacemark21),
+myMap.geoObjects.add(myPlacemark22),
+myMap.geoObjects.add(myPlacemark23),
+myMap.geoObjects.add(myPlacemark24),
+myMap.geoObjects.add(myPlacemark25),
+myMap.geoObjects.add(myPlacemark26),
+myMap.geoObjects.add(myPlacemark27),
+myMap.geoObjects.add(myPlacemark28),
+myMap.geoObjects.add(myPlacemark29),
+myMap.geoObjects.add(myPlacemark30),
+myMap.geoObjects.add(myPlacemark31),
+myMap.geoObjects.add(myPlacemark32),
+myMap.geoObjects.add(myPlacemark33),
+myMap.geoObjects.add(myPlacemark34),
+myMap.geoObjects.add(myPlacemark35),
+myMap.geoObjects.add(myPlacemark36),
+myMap.geoObjects.add(myPlacemark37),
+myMap.geoObjects.add(myPlacemark38),
+myMap.geoObjects.add(myPlacemark39),
+myMap.geoObjects.add(myPlacemark40),
+myMap.geoObjects.add(myPlacemark41),
+myMap.geoObjects.add(myPlacemark42),
+myMap.geoObjects.add(myPlacemark43),
+myMap.geoObjects.add(myPlacemark44),
+myMap.geoObjects.add(myPlacemark45),
+myMap.geoObjects.add(myPlacemark46),
+myMap.geoObjects.add(myPlacemark47),
+myMap.geoObjects.add(myPlacemark48),
+myMap.geoObjects.add(myPlacemark49),
+myMap.geoObjects.add(myPlacemark50),
+myMap.geoObjects.add(myPlacemark51),
+myMap.geoObjects.add(myPlacemark52),
+myMap.geoObjects.add(myPlacemark53),
+myMap.geoObjects.add(myPlacemark54),
+myMap.geoObjects.add(myPlacemark55),
+myMap.geoObjects.add(myPlacemark56),
+myMap.geoObjects.add(myPlacemark57),
+myMap.geoObjects.add(myPlacemark58),
+myMap.geoObjects.add(myPlacemark59),
+myMap.geoObjects.add(myPlacemark60),
+myMap.geoObjects.add(myPlacemark61),
+myMap.geoObjects.add(myPlacemark62),
+myMap.geoObjects.add(myPlacemark63),
+myMap.geoObjects.add(myPlacemark64),
+myMap.geoObjects.add(myPlacemark65),
+myMap.geoObjects.add(myPlacemark66),
+myMap.geoObjects.add(myPlacemark67),
+myMap.geoObjects.add(myPlacemark68),
+myMap.geoObjects.add(myPlacemark69),
+myMap.geoObjects.add(myPlacemark70),
+myMap.geoObjects.add(myPlacemark71),
+myMap.geoObjects.add(myPlacemark72),
+myMap.geoObjects.add(myPlacemark73),
+myMap.geoObjects.add(myPlacemark74),
+myMap.geoObjects.add(myPlacemark75),
+myMap.geoObjects.add(myPlacemark76),
+myMap.geoObjects.add(myPlacemark77),
+myMap.geoObjects.add(myPlacemark78),
+myMap.geoObjects.add(myPlacemark79),
+myMap.geoObjects.add(myPlacemark80),
+myMap.geoObjects.add(myPlacemark81),
+myMap.geoObjects.add(myPlacemark82),
+myMap.geoObjects.add(myPlacemark83),
+myMap.geoObjects.add(myPlacemark84),
+myMap.geoObjects.add(myPlacemark85),
+myMap.geoObjects.add(myPlacemark86),
+myMap.geoObjects.add(myPlacemark87),
+myMap.geoObjects.add(myPlacemark88),
+myMap.geoObjects.add(myPlacemark89),
+myMap.geoObjects.add(myPlacemark90),
+myMap.geoObjects.add(myPlacemark91),
+myMap.geoObjects.add(myPlacemark92),
+myMap.geoObjects.add(myPlacemark93),
+myMap.geoObjects.add(myPlacemark94),
+myMap.geoObjects.add(myPlacemark95),
+myMap.geoObjects.add(myPlacemark96),
+myMap.geoObjects.add(myPlacemark97),
+myMap.geoObjects.add(myPlacemark98),
+myMap.geoObjects.add(myPlacemark99),
+myMap.geoObjects.add(myPlacemark100),
+myMap.geoObjects.add(myPlacemark101),
+myMap.geoObjects.add(myPlacemark102),
+myMap.geoObjects.add(myPlacemark103),
+myMap.geoObjects.add(myPlacemark104),
+myMap.geoObjects.add(myPlacemark105),
+myMap.geoObjects.add(myPlacemark106),
+myMap.geoObjects.add(myPlacemark107),
+myMap.geoObjects.add(myPlacemark108),
+myMap.geoObjects.add(myPlacemark109),
+myMap.geoObjects.add(myPlacemark110),
+myMap.geoObjects.add(myPlacemark111),
+myMap.geoObjects.add(myPlacemark112),
+myMap.geoObjects.add(myPlacemark113),
+myMap.geoObjects.add(myPlacemark114),
+myMap.geoObjects.add(myPlacemark115),
+myMap.geoObjects.add(myPlacemark116),
+myMap.geoObjects.add(myPlacemark117),
+myMap.geoObjects.add(myPlacemark118),
+myMap.geoObjects.add(myPlacemark119),
+myMap.geoObjects.add(myPlacemark120),
+myMap.geoObjects.add(myPlacemark121),
+myMap.geoObjects.add(myPlacemark122),
+myMap.geoObjects.add(myPlacemark123),
+myMap.geoObjects.add(myPlacemark124),
+myMap.geoObjects.add(myPlacemark125),
+myMap.geoObjects.add(myPlacemark126),
+myMap.geoObjects.add(myPlacemark127),
+myMap.geoObjects.add(myPlacemark128),
+myMap.geoObjects.add(myPlacemark129),
+myMap.geoObjects.add(myPlacemark130),
+myMap.geoObjects.add(myPlacemark131),
+myMap.geoObjects.add(myPlacemark132),
+myMap.geoObjects.add(myPlacemark133),
+myMap.geoObjects.add(myPlacemark134),
+myMap.geoObjects.add(myPlacemark135),
+myMap.geoObjects.add(myPlacemark136),
+myMap.geoObjects.add(myPlacemark137),
+myMap.geoObjects.add(myPlacemark138),
+myMap.geoObjects.add(myPlacemark139),
+myMap.geoObjects.add(myPlacemark140),
+myMap.geoObjects.add(myPlacemark141),
+myMap.geoObjects.add(myPlacemark142),
+myMap.geoObjects.add(myPlacemark143),
+myMap.geoObjects.add(myPlacemark144),
+myMap.geoObjects.add(myPlacemark145),
+myMap.geoObjects.add(myPlacemark146),
+myMap.geoObjects.add(myPlacemark147),
+myMap.geoObjects.add(myPlacemark148),
+myMap.geoObjects.add(myPlacemark149),
+myMap.geoObjects.add(myPlacemark150),
+myMap.geoObjects.add(myPlacemark151),
+myMap.geoObjects.add(myPlacemark152),
+myMap.geoObjects.add(myPlacemark153),
+myMap.geoObjects.add(myPlacemark154),
+myMap.geoObjects.add(myPlacemark155),
+myMap.geoObjects.add(myPlacemark156),
+myMap.geoObjects.add(myPlacemark157),
+myMap.geoObjects.add(myPlacemark158),
+myMap.geoObjects.add(myPlacemark159),
+myMap.geoObjects.add(myPlacemark160),
+myMap.geoObjects.add(myPlacemark161),
+myMap.geoObjects.add(myPlacemark162),
+myMap.geoObjects.add(myPlacemark163),
+myMap.geoObjects.add(myPlacemark164);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="map" style="width: 600px; height: 400px"></div>
+</body>
+
+</html>
